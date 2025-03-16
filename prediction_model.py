@@ -34,7 +34,6 @@ class PredictionModel:
             prediction = 'FAKE' if model.predict(text_vect)[0] == 0 else 'REAL'
         except Exception as e:
             value = random.choice(methods)
-            print(value)
             if(value>30):
                 prediction = 'FAKE'
             else:
