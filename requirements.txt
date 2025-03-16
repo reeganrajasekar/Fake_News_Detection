@@ -1,0 +1,6 @@
+Flask
+nltk
+flask_wtf
+pandas
+scikit-learn
+bs4
